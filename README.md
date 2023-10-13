@@ -16,5 +16,6 @@
 
 ## Car dimensions
 <p align="center">
-  <img src="https://github.com/ebrahimabdelghfar/EVER_Simulator/assets/81301684/e531c65e-71ad-4ec7-a47f-e57341241bba" />
+  <img width=400 src="https://github.com/ebrahimabdelghfar/EVER_Simulator/assets/81301684/454b98f2-b021-4aaa-bea5-98a360295845" />
+  <img width=400 src="https://github.com/ebrahimabdelghfar/EVER_Simulator/assets/81301684/252c3466-e46b-491d-b2da-d618a25cd6a4" />
 </p>
