@@ -19,3 +19,21 @@
   <img width=400 src="https://github.com/ebrahimabdelghfar/EVER_Simulator/assets/81301684/454b98f2-b021-4aaa-bea5-98a360295845" />
   <img width=400 src="https://github.com/ebrahimabdelghfar/EVER_Simulator/assets/81301684/252c3466-e46b-491d-b2da-d618a25cd6a4" />
 </p>
+
+## Car specs
+$$
+Spring\text{ }Constant = 1120000.00 N/m
+$$
+
+
+$$
+C = 12800.00 Kg/sec
+$$
+
+$$
+Track\text{ }width=1.649m
+$$
+
+$$
+Wheel\text{ }Base=1.649m
+$$
