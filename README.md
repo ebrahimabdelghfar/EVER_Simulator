@@ -37,3 +37,7 @@ $$
 $$
 Wheel\text{ }Base=2.269m
 $$
+
+$$
+\text{Maximum torque delivered to the wheel}=1.311\times10^{07} N.m
+$$
