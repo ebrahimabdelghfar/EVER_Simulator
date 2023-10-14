@@ -31,9 +31,9 @@ C = 12800.00 Kg/sec
 $$
 
 $$
-Track\text{ }width=1.649m
+Wheel\text{ }Track=1.649m
 $$
 
 $$
-Wheel\text{ }Base=1.649m
+Wheel\text{ }Base=2.269m
 $$
