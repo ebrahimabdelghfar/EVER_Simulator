@@ -21,13 +21,18 @@
 </p>
 
 ## Car specs
+
 $$
-Spring\text{ }Constant = 1120000.00 N/m
+\text{Car mass} = 600.00 Kg
+$$
+
+$$
+Spring\text{ }Constant = 112000.00 N/m
 $$
 
 
 $$
-C = 12800.00 Kg/sec
+C = 1280.00 Kg/sec
 $$
 
 $$
@@ -39,5 +44,5 @@ Wheel\text{ }Base=2.269m
 $$
 
 $$
-\text{Maximum torque delivered to the wheel}=1.311\times10^{07} N.m
+\text{Maximum torque delivered to the wheel}=1.311\times10^{04} N.m
 $$
