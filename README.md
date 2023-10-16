@@ -46,6 +46,14 @@ $$
 $$
 \text{Maximum torque delivered to the wheel}=1.311\times10^{04} N.m
 $$
+
+$$
+\text{steering rate}=70\degree /sec
+$$
+
+$$
+\text{steering Torque}=1000N.m 
+$$
 # Topics
 ```
 /SteeringAngle #subscriber
