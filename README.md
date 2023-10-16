@@ -52,7 +52,7 @@ $$
 $$
 
 $$
-\text{steering Torque}=1000N.m 
+\text{Steering Torque}=1000N.m 
 $$
 # Topics
 ```
