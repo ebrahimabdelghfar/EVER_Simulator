@@ -7,7 +7,7 @@
 </p>
 
 ## Car
-
+⚠️ Car is rear wheel drive
 <p align="center">
   <img width=300 src="https://github.com/ebrahimabdelghfar/EVER_Simulator/assets/81301684/e531c65e-71ad-4ec7-a47f-e57341241bba" />
   <img width=250 src="https://github.com/ebrahimabdelghfar/EVER_Simulator/assets/81301684/015fdd9a-85ee-4089-87a4-6a1813992ec3" />
@@ -19,3 +19,30 @@
   <img width=400 src="https://github.com/ebrahimabdelghfar/EVER_Simulator/assets/81301684/454b98f2-b021-4aaa-bea5-98a360295845" />
   <img width=400 src="https://github.com/ebrahimabdelghfar/EVER_Simulator/assets/81301684/252c3466-e46b-491d-b2da-d618a25cd6a4" />
 </p>
+
+## Car specs
+
+$$
+\text{Car mass} = 600.00 Kg
+$$
+
+$$
+Spring\text{ }Constant = 112000.00 N/m
+$$
+
+
+$$
+C = 1280.00 Kg/sec
+$$
+
+$$
+Wheel\text{ }Track=1.649m
+$$
+
+$$
+Wheel\text{ }Base=2.269m
+$$
+
+$$
+\text{Maximum torque delivered to the wheel}=1.311\times10^{04} N.m
+$$
