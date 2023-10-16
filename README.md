@@ -46,3 +46,20 @@ $$
 $$
 \text{Maximum torque delivered to the wheel}=1.311\times10^{04} N.m
 $$
+# Topics
+```
+/SteeringAngle #subscriber
+  #  Type: std_msgs/Float64
+  #  info: used to set the steering angle
+  #  uint: Rad
+/cmd_vel #subscriber
+  # Type: std_msgs/Float64
+  # info: used to set the wheel velocity (+ for forward , - for backward)
+  # uint: Rad
+/odom # publisher
+  # type: nav_msgs/Odometry
+  # info: used to publish the position of the vehicle
+  # uint: (position is in meter realtive to the world) (orinetation is quatrion and you must transoform it into euler) 
+```
+# Notes
+⚠️ The Yaw=0 measured from +y-axis not +x-axis <br>
