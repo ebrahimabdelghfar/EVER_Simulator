@@ -54,6 +54,15 @@ $$
 $$
 \text{Steering Torque}=1000N.m 
 $$
+
+$$
+\text{static friction coff}=0.9
+$$
+
+$$
+\text{dynamic friction coff}=0.7
+$$
+
 # Topics
 ```
 /SteeringAngle #subscriber
