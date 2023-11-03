@@ -64,7 +64,7 @@ $$
 $$
 # Mounted sensor
 - GPS
-- Velodyne 3d lidar
+- Velodyne32 3d lidar
 # Topics
 ```
 /SteeringAngle #subscriber
