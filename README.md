@@ -65,6 +65,7 @@ $$
 # Mounted sensor
 - GPS
 - Velodyne32 3d lidar
+- IMU (linear acceleration and angular velocity)
 # Topics
 ```
 /SteeringAngle #subscriber
