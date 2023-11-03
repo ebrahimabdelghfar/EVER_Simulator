@@ -62,7 +62,9 @@ $$
 $$
 \text{dynamic friction coff}=0.7
 $$
-
+# Mounted sensor
+- GPS
+- Velodyne 3d lidar
 # Topics
 ```
 /SteeringAngle #subscriber
