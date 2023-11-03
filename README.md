@@ -62,7 +62,10 @@ $$
 $$
 \text{dynamic friction coff}=0.7
 $$
-
+# Mounted sensor
+- GPS
+- Velodyne32 3d lidar
+- IMU (linear acceleration and angular velocity , angular position)
 # Topics
 ```
 /SteeringAngle #subscriber
@@ -76,7 +79,15 @@ $$
 /odom # publisher
   # type: nav_msgs/Odometry
   # info: used to publish the position of the vehicle
-  # uint: (position is in meter realtive to the world) (orinetation is quatrion and you must transoform it into euler) 
+  # uint: (position is in meter realtive to the world) (orinetation is quatrion and you must transoform it into euler)
+/Imu
+    # type: sensor_msgs/Imu
+    # info: used to publish the linear acceleration and angular velocity and angular position of the vehicle
+    # uint: (linear acceleration is in meter/s^2 realtive to the world) (angular velocity is rad/sec)
+/velodyne_points
+    # type: sensor_msgs/PointCloud2
+    # info: used to publish Lidar points cloud
+    # uint: of point distance is in meter
 ```
 # Notes
 ⚠️ The Yaw=0 measured from +y-axis not +x-axis <br>
