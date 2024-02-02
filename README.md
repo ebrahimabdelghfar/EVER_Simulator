@@ -90,3 +90,13 @@ $$
 ```
 # Notes
 ⚠️ The Yaw=0 measured from +y-axis not +x-axis <br>
+# Reference
+@inproceedings{coppeliaSim,
+author="E. Rohmer and S. P. N. Singh and M. Freese",
+title="CoppeliaSim (formerly V-REP): a Versatile and
+Scalable Robot Simulation Framework",
+booktitle="Proc. of The International Conference on
+Intelligent Robots and Systems (IROS)",
+year="2013"
+note="www.coppeliarobotics.com"
+}
