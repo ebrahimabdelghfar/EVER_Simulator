@@ -74,8 +74,7 @@ $$
   #  uint: Rad
 /cmd_vel #subscriber
   # Type: std_msgs/Float64
-  # info: used to set the wheel velocity (+ for forward , - for backward)
-  # uint: Rad
+  # info: used to set the force on gas pedal range from 0~1 (0 for no pressure on gas pedal and 1 for full pressure on gas pedal).
 /odom # publisher
   # type: nav_msgs/Odometry
   # info: used to publish the position of the vehicle
@@ -83,7 +82,7 @@ $$
 /Imu
     # type: sensor_msgs/Imu
     # info: used to publish the linear acceleration and angular velocity and angular position of the vehicle
-    # uint: (linear acceleration is in meter/s^2 realtive to the world) (angular velocity is rad/sec)
+    # uint: (linear acceleration is in m/s^2 realtive to the world) (angular velocity is rad/sec)
 /velodyne_points
     # type: sensor_msgs/PointCloud2
     # info: used to publish Lidar points cloud
