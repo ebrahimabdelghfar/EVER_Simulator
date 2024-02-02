@@ -71,7 +71,7 @@ $$
 /SteeringAngle #subscriber
   #  Type: std_msgs/Float64
   #  info: used to set the steering angle
-  #  uint: Rad
+  #  uint: degree
 /cmd_vel #subscriber
   # Type: std_msgs/Float64
   # info: used to set the force on gas pedal range from 0~1 (0 for no pressure on gas pedal and 1 for full pressure on gas pedal).
