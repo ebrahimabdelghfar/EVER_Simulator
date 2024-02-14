@@ -62,6 +62,10 @@ $$
 $$
 \text{dynamic friction coff}=0.7
 $$
+
+$$
+\text{maximum turning steering angle}=30 \degree
+$$
 # Mounted sensor
 - GPS
 - Velodyne32 3d lidar
