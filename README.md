@@ -81,8 +81,8 @@ $$
   # info: used to set the force on gas pedal range from 0~1 (0 for no pressure on gas pedal and 1 for full pressure on gas pedal).
 /odom # publisher
   # type: nav_msgs/Odometry
-  # info: used to publish the position of the vehicle
-  # uint: (position is in meter realtive to the world) (orinetation is quatrion and you must transoform it into euler)
+  # info: used to publish the position and velocity of the vehicle
+  # uint: (position is in meter realtive to the world) (orinetation is quatrion and you must transoform it into euler) (Velocity is in meter/sec)
 /Imu
     # type: sensor_msgs/Imu
     # info: used to publish the linear acceleration and angular velocity and angular position of the vehicle
@@ -91,9 +91,14 @@ $$
     # type: sensor_msgs/PointCloud2
     # info: used to publish Lidar points cloud
     # uint: of point distance is in meter
+/brakes
+    # type: std_msgs/Float64
+    # info: Used to brake apply brake pressure from 0.0 to 1.0
+    # unit: no unit
 ```
 # Notes
 ⚠️ The Yaw=0 measured from +y-axis not +x-axis <br>
+⚠️ Move the file libv_repExtRosVelodyne.so to the coppeliasim main simulator environment
 # Reference
 @inproceedings{coppeliaSim,
 author="E. Rohmer and S. P. N. Singh and M. Freese",
