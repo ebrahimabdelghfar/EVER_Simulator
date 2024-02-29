@@ -98,7 +98,7 @@ $$
 ```
 # Notes
 ⚠️ The Yaw=0 measured from +y-axis not +x-axis <br>
-⚠️ Move the file libv_repExtRosVelodyne.so to the coppeliasim main simulator environment
+⚠️ Move the file libv_repExtRosVelodyne.so to the coppeliasim main simulator folder
 # Reference
 @inproceedings{coppeliaSim,
 author="E. Rohmer and S. P. N. Singh and M. Freese",
