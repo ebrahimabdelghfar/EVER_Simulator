@@ -75,16 +75,16 @@ $$
 # Topics
 ```
 /SteeringAngle #subscriber
-  #  Type: std_msgs/Float64
-  #  info: Used to set the steering angle
-  #  uint: Degree
+    #  Type: std_msgs/Float64
+    #  info: Used to set the steering angle
+    #  uint: Degree
 /cmd_vel #subscriber
-  # Type: std_msgs/Float64
-  # info: Used to set the force on gas pedal range from 0~1 (0 for no pressure on gas pedal and 1 for full pressure on gas pedal).
+    # Type: std_msgs/Float64
+    # info: Used to set the force on gas pedal range from 0~1 (0 for no pressure on gas pedal and 1 for full pressure on gas pedal).
 /odom # publisher
-  # type: nav_msgs/Odometry
-  # info: Used to publish the position and velocity of the vehicle
-  # uint: (position is in meter realtive to the world) (orinetation is quatrion and you must transoform it into euler) (Velocity is in meter/sec)
+    # type: nav_msgs/Odometry
+    # info: Used to publish the position and velocity of the vehicle
+    # uint: (position is in meter realtive to the world) (orinetation is quatrion and you must transoform it into euler) (Velocity is in meter/sec)
 /Imu
     # type: sensor_msgs/Imu
     # info: Used to publish the linear acceleration and angular velocity and angular position of the vehicle
