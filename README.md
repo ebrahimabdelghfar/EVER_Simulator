@@ -95,6 +95,18 @@ $$
     # type: std_msgs/Float64
     # info: Used to brake apply brake pressure from 0.0 to 1.0
     # unit: no unit
+/startSimulation
+    # type: std_msgs/Bool
+    # info: Used to start the simulator if the the message is "TRUE"
+    # unit: no unit
+/pauseSimulation
+    # type: std_msgs/Bool
+    # info: Used to pause the simulator if the the message is "TRUE"
+    # unit: no unit
+/stopSimulation
+    # type: std_msgs/Bool
+    # info: Used to stop the simulator if the the message is "TRUE"
+    # unit: no unit
 ```
 # Notes
 ⚠️ The Yaw=0 measured from +y-axis not +x-axis <br>
