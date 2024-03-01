@@ -70,43 +70,49 @@ $$
 - GPS
 - Velodyne32 3d lidar
 - IMU (linear acceleration and angular velocity , angular position)
+- Velocity sensor
+- MonoCamera with resolution 960x480
 # Topics
 ```
 /SteeringAngle #subscriber
   #  Type: std_msgs/Float64
-  #  info: used to set the steering angle
-  #  uint: degree
+  #  info: Used to set the steering angle
+  #  uint: Degree
 /cmd_vel #subscriber
   # Type: std_msgs/Float64
-  # info: used to set the force on gas pedal range from 0~1 (0 for no pressure on gas pedal and 1 for full pressure on gas pedal).
+  # info: Used to set the force on gas pedal range from 0~1 (0 for no pressure on gas pedal and 1 for full pressure on gas pedal).
 /odom # publisher
   # type: nav_msgs/Odometry
-  # info: used to publish the position and velocity of the vehicle
+  # info: Used to publish the position and velocity of the vehicle
   # uint: (position is in meter realtive to the world) (orinetation is quatrion and you must transoform it into euler) (Velocity is in meter/sec)
 /Imu
     # type: sensor_msgs/Imu
-    # info: used to publish the linear acceleration and angular velocity and angular position of the vehicle
+    # info: Used to publish the linear acceleration and angular velocity and angular position of the vehicle
     # uint: (linear acceleration is in m/s^2 realtive to the world) (angular velocity is rad/sec)
 /velodyne_points
     # type: sensor_msgs/PointCloud2
-    # info: used to publish Lidar points cloud
-    # uint: of point distance is in meter
+    # info: Used to publish Lidar points cloud
+    # uint: point distance is in meter
 /brakes
     # type: std_msgs/Float64
     # info: Used to brake apply brake pressure from 0.0 to 1.0
-    # unit: no unit
+    # unit: No unit
 /startSimulation
     # type: std_msgs/Bool
     # info: Used to start the simulator if the the message is "TRUE"
-    # unit: no unit
+    # unit: No unit
 /pauseSimulation
     # type: std_msgs/Bool
     # info: Used to pause the simulator if the the message is "TRUE"
-    # unit: no unit
+    # unit: No unit
 /stopSimulation
     # type: std_msgs/Bool
     # info: Used to stop the simulator if the the message is "TRUE"
-    # unit: no unit
+    # unit: No unit
+/image
+    # type: sensor_msgs/Image
+    # info: Used to publish the image from the camera in the simulator
+    # unit: No unit
 ```
 # Notes
 ⚠️ The Yaw=0 measured from +y-axis not +x-axis <br>
