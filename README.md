@@ -1,4 +1,4 @@
-# EVER_Simulator
+# EVER Simulator
 
 
 <p align="center">
@@ -6,7 +6,7 @@
    <img width=150 src="https://github.com/ebrahimabdelghfar/EVER_Simulator/assets/81301684/701fb094-edd0-4d97-a3be-eca381d8a3c2" />
 </p>
 
-## Car
+## Car Photos
 ⚠️ Car is rear wheel drive
 <p align="center">
   <img width=300 src="https://github.com/ebrahimabdelghfar/EVER_Simulator/assets/81301684/e531c65e-71ad-4ec7-a47f-e57341241bba" />
