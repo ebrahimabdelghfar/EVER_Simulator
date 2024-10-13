@@ -14,6 +14,7 @@ RUN apt-get update && \
 # Install ROS2 dependencies
 RUN apt-get update -q && \
 	export DEBIAN_FRONTEND=noninteractive && \
+    apt-get install xsltproc && \
     apt-get install -y --no-install-recommends \
         vim tar xz-utils \
         libx11-6 libxcb1 libxau6 libgl1-mesa-dev \
@@ -27,7 +28,7 @@ RUN apt-get update -q && \
 
 RUN mkdir -p /shared /opt
 
-RUN pip3 install pyzmq cbor2
+RUN pip3 install pyzmq cbor2 xmlschema
 
 RUN wget https://downloads.coppeliarobotics.com/V4_5_1_rev4/CoppeliaSim_Edu_V4_5_1_rev4_Ubuntu22_04.tar.xz -P /opt
 RUN tar -xf /opt/CoppeliaSim_Edu_V4_5_1_rev4_Ubuntu22_04.tar.xz -C /opt
@@ -36,11 +37,10 @@ RUN rm -r /opt/CoppeliaSim_Edu_V4_5_1_rev4_Ubuntu22_04/programming/ros_packages
 
 ENV COPPELIASIM_ROOT_DIR=/opt/CoppeliaSim_Edu_V4_5_1_rev4_Ubuntu22_04
 
-COPY bashrc /home/.bashrc
+COPY bashrc /home/.bashrc 
 
-# Run CoppeliaSim with the -h option:
+COPY  interfaces.txt /opt/CoppeliaSim_Edu_V4_5_1_rev4_Ubuntu22_04/programming/ros2_packages/sim_ros2_interface/meta/
 
-RUN git clone https://github.com/ebrahimabdelghfar/EVER_Simulator.git -b Simulator/ROS2
+COPY build.bash ./
 
-
-CMD ["./opt/CoppeliaSim_Edu_V4_5_1_rev4_Ubuntu22_04/coppeliaSim.sh EVER_Simulator/src/ros2_simulator/simulation_enviornment/EverAI_Truck.ttt"]
+CMD ["./build.bash"]
