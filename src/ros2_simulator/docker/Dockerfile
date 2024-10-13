@@ -37,10 +37,10 @@ RUN rm -r /opt/CoppeliaSim_Edu_V4_5_1_rev4_Ubuntu22_04/programming/ros_packages
 
 ENV COPPELIASIM_ROOT_DIR=/opt/CoppeliaSim_Edu_V4_5_1_rev4_Ubuntu22_04
 
-COPY bashrc /home/.bashrc 
+COPY resources/bashrc ./.bashrc 
 
-COPY  interfaces.txt /opt/CoppeliaSim_Edu_V4_5_1_rev4_Ubuntu22_04/programming/ros2_packages/sim_ros2_interface/meta/
+COPY  resources/interfaces.txt /opt/CoppeliaSim_Edu_V4_5_1_rev4_Ubuntu22_04/programming/ros2_packages/sim_ros2_interface/meta/
 
-COPY build.bash ./
+COPY resources/build.bash ./
 
 CMD ["./build.bash"]
