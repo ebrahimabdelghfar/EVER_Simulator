@@ -1,6 +1,6 @@
 FROM osrf/ros:humble-desktop-full
 
-COPY /EVER_Simulator ./
+COPY /EVER_Simulator ./EVER_Simulator/
 
 RUN apt-get update && \
     apt-get install python3-colcon-common-extensions \
