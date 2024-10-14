@@ -1,4 +1,7 @@
 # How to RUN
+## Install Docker 
+https://docs.docker.com/engine/install/ubuntu/
+
 ## Build Docker image
 ```
 ./build_docker.bash 
